@@ -75,7 +75,7 @@ function login() {
 
 //to navigate to signup page to create new account
 function createN() {
-  window.location.href = "signup.html"
+  window.location.href = "index.html"
 }
 
 //to navigate to login page to login into existing account
