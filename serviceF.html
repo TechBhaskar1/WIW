@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Product</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="service.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+</head>
+<body>
+    <center>
+    <div id="parent">
+        <h1 id="head">WIW.com</h1>
+        <input type="text" placeholder="Seller ID" id="username">
+        <input type="number" placeholder="Contact Number" id="no">
+        <input type="email" placeholder="Email ID" id="email">
+        <input type="text" placeholder="Company name" id="company">
+        <input type="text" placeholder="Product Name" id="productName">
+        <input type="text" placeholder="Price of Product" id="price">
+        <input type="text" placeholder="Product ID" id="id">
+        <input type="url" placeholder="URL of image" id="img">
+        <textarea id="des">Description(optional)</textarea>
+        <button id="publish" onclick="publishF()">Publish</button>
+
+    </div>
+</center>
+<script src="service.js"></script>
+</body>
+</html>
